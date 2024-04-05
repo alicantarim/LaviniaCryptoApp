@@ -2,7 +2,7 @@
 //  HomeView.swift
 //  LaviniaCoinApp
 //
-//  Created by Alican TARIM on 5.04.2024.
+//  Created by Alican TARIM on 5.04.2024
 //
 
 import SwiftUI
