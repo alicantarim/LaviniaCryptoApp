@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE82FE642BC07723000147BD /* LaviniaCoinAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82FE632BC07723000147BD /* LaviniaCoinAppApp.swift */; };
+		BE82FE662BC07723000147BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82FE652BC07723000147BD /* ContentView.swift */; };
+		BE82FE682BC07726000147BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE82FE672BC07726000147BD /* Assets.xcassets */; };
+		BE82FE6B2BC07726000147BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE82FE6A2BC07726000147BD /* Preview Assets.xcassets */; };
+		BE82FE7C2BC077E8000147BD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82FE7B2BC077E8000147BD /* HomeView.swift */; };
+		BE82FE7E2BC0790C000147BD /* TopMoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82FE7D2BC0790C000147BD /* TopMoversView.swift */; };
+		BE82FE822BC07938000147BD /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82FE812BC07938000147BD /* TopMoversItemView.swift */; };
+		BE82FE842BC07D40000147BD /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82FE832BC07D40000147BD /* AllCoinsView.swift */; };
+		BE82FE862BC07D52000147BD /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82FE852BC07D52000147BD /* CoinRowView.swift */; };
+		BE82FE882BC0865C000147BD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82FE872BC0865C000147BD /* HomeViewModel.swift */; };
+		BE82FE8A2BC08963000147BD /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82FE892BC08963000147BD /* Coin.swift */; };
+		BE82FE8D2BC0996F000147BD /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BE82FE8C2BC0996F000147BD /* Kingfisher */; };
+		BE82FE8F2BC09A77000147BD /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82FE8E2BC09A76000147BD /* Double.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE82FE602BC07723000147BD /* LaviniaCoinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaviniaCoinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE82FE632BC07723000147BD /* LaviniaCoinAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaviniaCoinAppApp.swift; sourceTree = "<group>"; };
+		BE82FE652BC07723000147BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE82FE672BC07726000147BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE82FE6A2BC07726000147BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE82FE7B2BC077E8000147BD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BE82FE7D2BC0790C000147BD /* TopMoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversView.swift; sourceTree = "<group>"; };
+		BE82FE812BC07938000147BD /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
+		BE82FE832BC07D40000147BD /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
+		BE82FE852BC07D52000147BD /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		BE82FE872BC0865C000147BD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		BE82FE892BC08963000147BD /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		BE82FE8E2BC09A76000147BD /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE82FE5D2BC07722000147BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE82FE8D2BC0996F000147BD /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE82FE572BC07722000147BD = {
+			isa = PBXGroup;
+			children = (
+				BE82FE622BC07723000147BD /* LaviniaCoinApp */,
+				BE82FE612BC07723000147BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE82FE612BC07723000147BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE82FE602BC07723000147BD /* LaviniaCoinApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE82FE622BC07723000147BD /* LaviniaCoinApp */ = {
+			isa = PBXGroup;
+			children = (
+				BE82FE772BC07752000147BD /* Utils */,
+				BE82FE762BC07751000147BD /* Extensions */,
+				BE82FE752BC07750000147BD /* Models */,
+				BE82FE742BC0774E000147BD /* Core */,
+				BE82FE732BC0774C000147BD /* App */,
+				BE82FE652BC07723000147BD /* ContentView.swift */,
+				BE82FE672BC07726000147BD /* Assets.xcassets */,
+				BE82FE692BC07726000147BD /* Preview Content */,
+			);
+			path = LaviniaCoinApp;
+			sourceTree = "<group>";
+		};
+		BE82FE692BC07726000147BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE82FE6A2BC07726000147BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE82FE732BC0774C000147BD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BE82FE632BC07723000147BD /* LaviniaCoinAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BE82FE742BC0774E000147BD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BE82FE782BC0779B000147BD /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BE82FE752BC07750000147BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE82FE892BC08963000147BD /* Coin.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE82FE762BC07751000147BD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE82FE8E2BC09A76000147BD /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BE82FE772BC07752000147BD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BE82FE782BC0779B000147BD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BE82FE7A2BC077CE000147BD /* Views */,
+				BE82FE792BC077CC000147BD /* ViewModels */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BE82FE792BC077CC000147BD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BE82FE872BC0865C000147BD /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BE82FE7A2BC077CE000147BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE82FE7B2BC077E8000147BD /* HomeView.swift */,
+				BE82FE7D2BC0790C000147BD /* TopMoversView.swift */,
+				BE82FE812BC07938000147BD /* TopMoversItemView.swift */,
+				BE82FE832BC07D40000147BD /* AllCoinsView.swift */,
+				BE82FE852BC07D52000147BD /* CoinRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE82FE5F2BC07722000147BD /* LaviniaCoinApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE82FE6E2BC07726000147BD /* Build configuration list for PBXNativeTarget "LaviniaCoinApp" */;
+			buildPhases = (
+				BE82FE5C2BC07722000147BD /* Sources */,
+				BE82FE5D2BC07722000147BD /* Frameworks */,
+				BE82FE5E2BC07722000147BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaviniaCoinApp;
+			packageProductDependencies = (
+				BE82FE8C2BC0996F000147BD /* Kingfisher */,
+			);
+			productName = LaviniaCoinApp;
+			productReference = BE82FE602BC07723000147BD /* LaviniaCoinApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE82FE582BC07722000147BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BE82FE5F2BC07722000147BD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = BE82FE5B2BC07722000147BD /* Build configuration list for PBXProject "LaviniaCoinApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE82FE572BC07722000147BD;
+			packageReferences = (
+				BE82FE8B2BC0996F000147BD /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = BE82FE612BC07723000147BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE82FE5F2BC07722000147BD /* LaviniaCoinApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE82FE5E2BC07722000147BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE82FE6B2BC07726000147BD /* Preview Assets.xcassets in Resources */,
+				BE82FE682BC07726000147BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE82FE5C2BC07722000147BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE82FE8A2BC08963000147BD /* Coin.swift in Sources */,
+				BE82FE7E2BC0790C000147BD /* TopMoversView.swift in Sources */,
+				BE82FE842BC07D40000147BD /* AllCoinsView.swift in Sources */,
+				BE82FE7C2BC077E8000147BD /* HomeView.swift in Sources */,
+				BE82FE882BC0865C000147BD /* HomeViewModel.swift in Sources */,
+				BE82FE662BC07723000147BD /* ContentView.swift in Sources */,
+				BE82FE642BC07723000147BD /* LaviniaCoinAppApp.swift in Sources */,
+				BE82FE862BC07D52000147BD /* CoinRowView.swift in Sources */,
+				BE82FE8F2BC09A77000147BD /* Double.swift in Sources */,
+				BE82FE822BC07938000147BD /* TopMoversItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE82FE6C2BC07726000147BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE82FE6D2BC07726000147BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE82FE6F2BC07726000147BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LaviniaCoinApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZDN9WVFBD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alicantarim.LaviniaCoinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE82FE702BC07726000147BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LaviniaCoinApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZDN9WVFBD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alicantarim.LaviniaCoinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE82FE5B2BC07722000147BD /* Build configuration list for PBXProject "LaviniaCoinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE82FE6C2BC07726000147BD /* Debug */,
+				BE82FE6D2BC07726000147BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE82FE6E2BC07726000147BD /* Build configuration list for PBXNativeTarget "LaviniaCoinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE82FE6F2BC07726000147BD /* Debug */,
+				BE82FE702BC07726000147BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BE82FE8B2BC0996F000147BD /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BE82FE8C2BC0996F000147BD /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE82FE8B2BC0996F000147BD /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BE82FE582BC07722000147BD /* Project object */;
+}
